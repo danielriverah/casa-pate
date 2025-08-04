@@ -7,3 +7,153 @@
     height: auto;
     display: block;
   }
+
+
+
+  .haz_tu_pedido-page {
+  padding: 0;
+  margin: 0;
+}
+
+.contacto-section {
+  margin-top: 0; /* o ajusta según el diseño */
+}
+
+.contacto-boton-whatsapp-wrapper {
+  background-color: #EDA200; /* fondo completo del contenedor */
+  padding: 40px 20px; /* espacio arriba y abajo */
+  text-align: center;
+}
+
+.whatsapp-footer-button {
+  background-color: #25d366;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.whatsapp-footer-button:hover {
+  background-color: #1ebe5b;
+  transform: scale(1.03);
+}
+
+/*Productos*/
+.productos-boton-wrapper {
+  background-color: #DF1C82; /* fondo rosa */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.productos-footer-button {
+  background-color: white;
+  color: #DF1C82;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.productos-footer-button:hover {
+  background-color: #f3d5e5;
+  transform: scale(1.03);
+}
+
+
+
+
+/*Storytelling*/
+.por_que_casapate-section {
+  position: relative;
+  width: 100%;
+}
+
+.porque-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.historia-overlay-button {
+  position: absolute;
+  top: 40px; /* separa del borde inferior */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+
+.historia-button-link {
+  background-color: #ffffff;
+  color: #DF1C82;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.historia-button-link:hover {
+  background-color: #cc8a00;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+/*arma tus snaks*/
+.productos-page {
+  position: relative;
+  width: 100%;
+}
+
+.productos-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.snaks-overlay-button {
+  position: absolute;
+  bottom: 50px; /* separa del borde inferior */
+  left: 80%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+
+.snaks-button-link {
+  background-color: #ffffff;
+  color: #DF1C82;
+  padding: 14px 80px;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.snaks-button-link:hover {
+  background-color: #ec7fbf;
+  transform: scale(1.05);
+}
+
+
