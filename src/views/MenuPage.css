@@ -1,0 +1,9 @@
+.menu-page {
+    background-color: black;
+    min-height: 100vh;
+  }
+  .full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
